@@ -7,20 +7,22 @@
     margin-right: 50px;
 }
 
-.error {
-    border: 1px solid red;
+.isDone {
+    text-decoration: line-through;
+    opacity: 0.3;
 }
 
-.error-message {
+.inputError {
+    border: 2px solid red;
+    outline: none;
+}
+
+.error {
+    margin: 0;
     color: red;
 }
 
-.active-btn {
-    background-color: aquamarine;
-    border: 2px solid black;
-}
-
-.is-done {
-    text-decoration: line-through;
-    opacity: 0.5;
+.active {
+    background-color: aqua;
+    border: 2px solid aqua;
 }
