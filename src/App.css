@@ -7,22 +7,22 @@
     margin-right: 50px;
 }
 
-.isDone {
-    text-decoration: line-through;
-    opacity: 0.3;
+.task {
+    font-weight: bold;
 }
 
-.inputError {
-    border: 2px solid red;
-    outline: none;
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.active-btn {
+    background: hotpink;
+    color: white;
+    border: 2px solid hotpink;
 }
 
 .error {
-    margin: 0;
-    color: red;
+    border: 2px solid red;
 }
 
-.active {
-    background-color: aqua;
-    border: 2px solid aqua;
-}
